@@ -36,7 +36,7 @@ function CardProduct({
             xs: "flex",
             sm: "block",
           },
-          // flexDirection: "column",
+          justifyContent: "space-between",
         }}
       >
         <CardMedia
@@ -66,6 +66,7 @@ function CardProduct({
               xs: "10px 0 0 20px",
               sm: "10px 0 0 0",
             },
+            width: "100%",
             "&:last-child": { pb: "0" },
           }}
         >
